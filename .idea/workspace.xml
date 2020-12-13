@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ca103192-0008-487c-8695-6d2c47377fcd" name="Default Changelist" comment="initial installation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/helpers.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/helpers.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/products.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/products.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +55,7 @@
       <updated>1607760492399</updated>
       <workItem from="1607760493794" duration="4996000" />
       <workItem from="1607858234366" duration="1130000" />
-      <workItem from="1607862667947" duration="370000" />
+      <workItem from="1607862667947" duration="895000" />
     </task>
     <task id="LOCAL-00001" summary="initial installation">
       <created>1607762405028</created>

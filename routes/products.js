@@ -59,31 +59,31 @@ router.get('/:pid', (req, res) => {
     let productID = req.params.pid;
     console.log(productID);
 
-    // database.table('products as p')
-    //     .join([{
-    //         table: 'categories as c',
-    //         on: 'c.CatID = p.CatID'
-    //     }])
-    //     .withFields([
-    //         'c.CatName as category',
-    //         'p.Title as name',
-    //         'p.price',
-    //         'p.quantity',
-    //         'p.PID',
-    //     ])
-    //     .slice(startValue, endValue)
-    //     .sort({PID: .1})
-    //     .getAll()
-    //     .then(prods => {
-    //         if (prods.length > 0 ) {
-    //             res.status(200).json({
-    //                 count: prods.length,
-    //                 products: prods
-    //             });
-    //         } else {
-    //             res.json({message: 'No Products were found'});
-    //         }
-    //     }).catch( err => console.log(err));
+    database.table('products as p')
+        .join([{
+            table: 'categories as c',
+            on: 'c.CatID = p.CatID'
+        }])
+        .withFields([
+            'c.CatName as category',
+            'p.Title as name',
+            'p.price',
+            'p.quantity',
+            'p.PID',
+        ])
+        .slice(startValue, endValue)
+        .sort({PID: .1})
+        .get(productID)
+        .then(prods => {
+            if (prods.length > 0 ) {
+                res.status(200).json({
+                    count: prods.length,
+                    products: prods
+                });
+            } else {
+                res.json({message: 'No Products were found'});
+            }
+        }).catch( err => console.log(err));
 })
 
 
