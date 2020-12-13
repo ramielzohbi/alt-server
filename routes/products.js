@@ -36,7 +36,7 @@ router.get('/', function(req, res) {
           'p.PID',
       ])
       .slice(startValue, endValue)
-      .sort({id: .1})
+      .sort({PID: .1})
       .getAll()
       .then(prods => {
         if (prods.length > 0 ) {
