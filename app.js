@@ -9,10 +9,17 @@ const app = express();
 const productsRoute = require('./routes/products');
 const usersRoute = require('./routes/users');
 
+const ordersRoute = require('./routes/orders');
+const bodyParser = require("body-parser");
+
+
+app.use(bodyParser.json()) // for parsing application/json
+app.use(bodyParser.urlencoded({ extended: true }))
+
 // Use Routes
 app.use('/api/products', productsRoute);
 app.use('/api/users', usersRoute);
-
+app.use('/api/orders', ordersRoute);
 
 
 app.use(cors({
@@ -26,6 +33,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
+
 
 // app.use('/', indexRouter);
 // app.use('/users', usersRouter);

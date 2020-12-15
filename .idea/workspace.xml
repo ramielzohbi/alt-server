@@ -2,13 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca103192-0008-487c-8695-6d2c47377fcd" name="Default Changelist" comment="initial installation">
-      <change afterPath="$PROJECT_DIR$/config/helpers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/orders.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/www" beforeDir="false" afterPath="$PROJECT_DIR$/bin/www" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bignumber.js/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bignumber.js/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/body-parser/HISTORY.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/body-parser/HISTORY.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/body-parser/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/body-parser/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/body-parser/lib/types/urlencoded.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/body-parser/lib/types/urlencoded.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/body-parser/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/body-parser/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bytes/History.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bytes/History.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bytes/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bytes/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bytes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bytes/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bytes/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bytes/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/core-util-is/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/core-util-is/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cors/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cors/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/es.shim/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/es.shim/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/iconv-lite/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/iconv-lite/Changelog.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/iconv-lite/Changelog.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/iconv-lite/encodings/sbcs-codec.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/iconv-lite/encodings/sbcs-codec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/iconv-lite/encodings/sbcs-data.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/iconv-lite/encodings/sbcs-data.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/iconv-lite/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/iconv-lite/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/isarray/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/isarray/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mysql/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mysql/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mysqli/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mysqli/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/object-assign/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/object-assign/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/process-nextick-args/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/process-nextick-args/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/raw-body/HISTORY.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/raw-body/HISTORY.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/raw-body/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/raw-body/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readable-stream/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/readable-stream/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sqlstring/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/sqlstring/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/string_decoder/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/string_decoder/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/util-deprecate/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/util-deprecate/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/products.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/products.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/products.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +54,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectId" id="1lY43Uk8c1kcFyuEnRg8dWVPsGv" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -35,9 +63,15 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="10.16.0" />
     <property name="javascript.nodejs.core.library.typings.version" value="10.17.48" />
     <property name="nodejs_interpreter_path" value="node" />
@@ -52,7 +86,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607760492399</updated>
-      <workItem from="1607760493794" duration="4280000" />
+      <workItem from="1607760493794" duration="4996000" />
+      <workItem from="1607858234366" duration="1130000" />
+      <workItem from="1607862667947" duration="370000" />
+      <workItem from="1608011563577" duration="2719000" />
     </task>
     <task id="LOCAL-00001" summary="initial installation">
       <created>1607762405028</created>
@@ -61,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607762405028</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="initial installation">
+      <created>1607830324009</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1607830324009</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -77,9 +121,11 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial installation" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial installation" />
+    <MESSAGE value="single product" />
+    <option name="LAST_COMMIT_MESSAGE" value="single product" />
   </component>
 </project>
