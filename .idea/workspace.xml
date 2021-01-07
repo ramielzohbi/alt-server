@@ -2,40 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca103192-0008-487c-8695-6d2c47377fcd" name="Default Changelist" comment="initial installation">
-      <change afterPath="$PROJECT_DIR$/routes/orders.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bignumber.js/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bignumber.js/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/body-parser/HISTORY.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/body-parser/HISTORY.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/body-parser/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/body-parser/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/body-parser/lib/types/urlencoded.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/body-parser/lib/types/urlencoded.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/body-parser/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/body-parser/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bytes/History.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bytes/History.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bytes/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bytes/Readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bytes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bytes/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bytes/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bytes/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-util-is/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/core-util-is/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cors/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cors/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/es.shim/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/es.shim/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/iconv-lite/.travis.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/iconv-lite/Changelog.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/iconv-lite/Changelog.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/iconv-lite/encodings/sbcs-codec.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/iconv-lite/encodings/sbcs-codec.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/iconv-lite/encodings/sbcs-data.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/iconv-lite/encodings/sbcs-data.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/iconv-lite/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/iconv-lite/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/isarray/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/isarray/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mysql/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mysql/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mysqli/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mysqli/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/object-assign/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/object-assign/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/process-nextick-args/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/process-nextick-args/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/raw-body/HISTORY.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/raw-body/HISTORY.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/raw-body/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/raw-body/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/readable-stream/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/readable-stream/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/sqlstring/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/sqlstring/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/string_decoder/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/string_decoder/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/util-deprecate/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/util-deprecate/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/products.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/products.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +56,7 @@
       <workItem from="1607760493794" duration="4996000" />
       <workItem from="1607858234366" duration="1130000" />
       <workItem from="1607862667947" duration="370000" />
-      <workItem from="1608011563577" duration="2719000" />
+      <workItem from="1608011563577" duration="3583000" />
     </task>
     <task id="LOCAL-00001" summary="initial installation">
       <created>1607762405028</created>
@@ -105,7 +72,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607830324009</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="initial installation">
+      <created>1608060642784</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1608060642784</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,8 +98,8 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="initial installation" />
     <MESSAGE value="single product" />
-    <option name="LAST_COMMIT_MESSAGE" value="single product" />
+    <MESSAGE value="initial installation" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial installation" />
   </component>
 </project>
