@@ -197,19 +197,19 @@ router.post('/new', upload.array('images', 20), (req, res) => {
                 Description : req.body.description , 
                 featuredImage : featuredImage ,
                 images: remainingImages,
-                Price: req.body.pruce,
+                Price: req.body.price,
                 Quantity: req.body.qty,
                 CatID: req.body.CID,
                 CO2: req.body.co2,
             } ) 
         . then ( lastId  =>  { 
-        console.log(lastId);
-        } )
+            console.log(lastId);
+            res.json({
+                message: `Product create was a success, your Product ID is : ${lastId}`,
+                success: true,
+            });
 
-        res.json({
-            message: `Product create was a success, your Product ID is : ${lastId}`,
-            success: true,
-        });
+        } )
 
 });
 
