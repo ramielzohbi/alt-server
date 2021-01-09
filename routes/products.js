@@ -1,7 +1,36 @@
 const express = require('express');
 const router = express.Router();
-
+const multer = require('multer');
 const {database} = require('../config/helpers');
+
+
+
+const storage = multer.diskStorage({
+    destination: function(req, file, cb) {
+        cb(null, 'uploads');
+    },
+    filename: function(req,file,cb) {
+        cb(null, new Date().toISOString() + file.originalname)
+    }
+});
+
+const filefilter =  (req,file,cb) => {
+
+    if (file.mimetype === 'image/jpeg' || file.mimetype === 'image/png' ) {
+        cb(null,true);
+    } else {
+        cb(null,false);
+    }
+
+};
+
+const upload = multer({
+    storage: storage,
+    limits: {
+        fileSize: 1024 * 1024 * 6
+    },
+    fileFilter: filefilter,
+});
 
 /* GET All Products */
 router.get('/', function(req, res) {
@@ -34,6 +63,8 @@ router.get('/', function(req, res) {
           'p.price',
           'p.quantity',
           'p.PID',
+          'p.featuredImage',
+          'p.images',
       ])
       .slice(startValue, endValue)
       .sort({PID: .1})
@@ -119,6 +150,8 @@ router.get('/category/:catName', (req, res) => {
             'p.price',
             'p.quantity',
             'p.PID',
+            'p.featuredImage',
+            'p.images',
         ])
         .slice(startValue, endValue)
         .sort({PID: .1})
@@ -137,5 +170,47 @@ router.get('/category/:catName', (req, res) => {
 
 });
 
+
+router.post('/new', upload.array('images', 20), (req, res) => {
+    const allImages = req.files;
+    
+    const featuredImage = allImages[0].path;
+    
+    // console.log('Featured image : ' + allImages[0].path);
+
+    let remainingImages = '';
+    for(let i = 1; i < allImages.length; i++) {
+        remainingImages += allImages[i].path;
+        if (i === allImages.length - 1) {
+        } else {remainingImages += ',,,';}
+    }
+    console.log('remaining Images : ' + remainingImages);
+
+    // All Above are working perfect;  Feautured image, and remaining images;
+
+    //Insert into Database
+
+    database 
+        . table ( 'products' ) 
+            . insert ( { 
+                Title : req.body.title , 
+                Description : req.body.description , 
+                featuredImage : featuredImage ,
+                images: remainingImages,
+                Price: req.body.pruce,
+                Quantity: req.body.qty,
+                CatID: req.body.CID,
+                CO2: req.body.co2,
+            } ) 
+        . then ( lastId  =>  { 
+        console.log(lastId);
+        } )
+
+        res.json({
+            message: `Product create was a success, your Product ID is : ${lastId}`,
+            success: true,
+        });
+
+});
 
 module.exports = router;
